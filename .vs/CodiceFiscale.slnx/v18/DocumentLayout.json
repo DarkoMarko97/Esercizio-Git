@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C6EE6F-C2F9-4213-A7CC-172920502907}|CodiceFiscale\\CodiceFiscale.csproj|c:\\git_project\\esercizi git\\codice fiscale\\codicefiscale\\codicefiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C6EE6F-C2F9-4213-A7CC-172920502907}|CodiceFiscale\\CodiceFiscale.csproj|solutionrelative:codicefiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\Program.cs",
+              "RelativeDocumentMoniker": "CodiceFiscale\\Program.cs",
+              "ToolTip": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\Program.cs",
+              "RelativeToolTip": "CodiceFiscale\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:24:21.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
