@@ -1,0 +1,14 @@
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\bin\Debug\net10.0\CodiceFiscale.exe
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\bin\Debug\net10.0\CodiceFiscale.deps.json
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\bin\Debug\net10.0\CodiceFiscale.runtimeconfig.json
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\bin\Debug\net10.0\CodiceFiscale.dll
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\bin\Debug\net10.0\CodiceFiscale.pdb
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\CodiceFiscale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\CodiceFiscale.AssemblyInfoInputs.cache
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\CodiceFiscale.AssemblyInfo.cs
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\CodiceFiscale.csproj.CoreCompileInputs.cache
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\CodiceFiscale.dll
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\refint\CodiceFiscale.dll
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\CodiceFiscale.pdb
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\CodiceFiscale.genruntimeconfig.cache
+C:\Codice Fiscale\CodiceFiscale\CodiceFiscale\obj\Debug\net10.0\ref\CodiceFiscale.dll

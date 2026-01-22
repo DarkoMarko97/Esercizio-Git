@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\",
+  "WorkspaceRootPath": "C:\\Codice Fiscale\\CodiceFiscale\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1C6EE6F-C2F9-4213-A7CC-172920502907}|CodiceFiscale\\CodiceFiscale.csproj|c:\\git_project\\esercizi git\\codice fiscale\\codicefiscale\\codicefiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C6EE6F-C2F9-4213-A7CC-172920502907}|CodiceFiscale\\CodiceFiscale.csproj|solutionrelative:codicefiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD0F4976-2AD8-E411-0756-4DEB678BBA3B}|CodiceFiscale\\CodiceFiscale.csproj|c:\\codice fiscale\\codicefiscale\\codicefiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0F4976-2AD8-E411-0756-4DEB678BBA3B}|CodiceFiscale\\CodiceFiscale.csproj|solutionrelative:codicefiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\Program.cs",
+              "DocumentMoniker": "C:\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\Program.cs",
               "RelativeDocumentMoniker": "CodiceFiscale\\Program.cs",
-              "ToolTip": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\Program.cs",
+              "ToolTip": "C:\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\Program.cs",
               "RelativeToolTip": "CodiceFiscale\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T16:24:21.606Z",
               "EditorCaption": ""

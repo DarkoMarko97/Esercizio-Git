@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj": {}
+    "C:\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj": {}
   },
   "projects": {
-    "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj": {
+    "C:\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj",
+        "projectUniqueName": "C:\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj",
         "projectName": "CodiceFiscale",
-        "projectPath": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj",
+        "projectPath": "C:\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\CodiceFiscale.csproj",
         "packagesPath": "C:\\Users\\AccorintiMarcoMichel\\.nuget\\packages\\",
-        "outputPath": "C:\\Git_project\\Esercizi Git\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\obj\\",
+        "outputPath": "C:\\Codice Fiscale\\CodiceFiscale\\CodiceFiscale\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
