@@ -53,8 +53,30 @@ namespace CodiceFiscale
         }
         public string CodiceFiscale
         {
-            get { return "Da implementare"; }
-            set { }
+            get
+            {
+                // Normalizza input
+                string cog = (cognome ?? "").Trim();
+                string nom = (nome ?? "").Trim();
+                string com = (comune ?? "").Trim();
+
+                // Parti del CF
+                string partCognome = ExtractChars(cog, true);   // 3
+                string partNome = ExtractChars(nom, false);  // 3
+                string partData = GetCharData();             // 5 (AA + lettera mese + GG o GG+40)
+                string partComune = GetCharComune(com);        // 4
+
+                // Se comune non trovato o parti non valide, ritorna stringa vuota
+                string cf15 = (partCognome + partNome + partData + partComune).ToUpperInvariant();
+                if (string.IsNullOrWhiteSpace(partComune) || cf15.Length != 15)
+                    return "";
+
+                // Carattere di controllo
+                char ctrl = CodFiscControl(cf15);
+
+                return (cf15 + ctrl).ToUpperInvariant();
+            }
+            set { /* non serve il set */ }
         }
         
 
@@ -94,7 +116,7 @@ namespace CodiceFiscale
                     {
                         for (int k = i; k < strVal.Length; k++) 
                         {
-                            if (FindString(strVoc, strVal[k]) && strVal[k] != ' ') 
+                            if (!FindString(strVoc, strVal[k]) && strVal[k] != ' ') 
                             {
                                 retValue += strVal[k];
                                 string strTemp=retValue;
@@ -245,6 +267,49 @@ namespace CodiceFiscale
             { return "G273"; }
             else
             { return " "; }
+        }
+        private char CodFiscControl(string strVal)
+        {
+            int pesi = 0;
+            int[] arrPesi = {1, 0, 5, 7, 9, 13, 15, 17, 19, 21, 1,
+         0, 5, 7, 9, 13, 15, 17, 19, 21, 2, 4, 18, 20, 11,
+         3, 6, 8, 12, 14, 16, 10, 22, 25, 24, 23};
+            strVal = strVal.ToUpper();
+            for (int i = 0; i < strVal.Length; ++i)
+            {
+                if (((i + 1) % 2) == 0)
+                {
+                    if (Convert.ToInt32(strVal[i]) >=
+                            Convert.ToInt32('0') &&
+                            Convert.ToInt32(strVal[i]) <=
+                            Convert.ToInt32('9'))
+                        pesi += Convert.ToInt32(strVal[i]) -
+                             Convert.ToInt32('0');
+                    else if (Convert.ToInt32(strVal[i]) >=
+                             Convert.ToInt32('A') &&
+                             Convert.ToInt32(strVal[i]) <=
+                             Convert.ToInt32('Z'))
+                        pesi += Convert.ToInt32(strVal[i]) -
+                              Convert.ToInt32('A');
+                }
+                else
+                {
+                    if (Convert.ToInt32(strVal[i]) >=
+                           Convert.ToInt32('0') &&
+                           Convert.ToInt32(strVal[i]) <=
+                           Convert.ToInt32('9'))
+                        pesi += arrPesi[Convert.ToInt32(strVal[i]) -
+                            Convert.ToInt32('0')];
+                    else if (Convert.ToInt32(strVal[i]) >=
+                            Convert.ToInt32('A') &&
+                            Convert.ToInt32(strVal[i]) <=
+                            Convert.ToInt32('Z'))
+                        pesi += arrPesi[Convert.ToInt32(strVal[i]) -
+                            Convert.ToInt32('A') + 10];
+                }
+            }
+
+            return Convert.ToChar(65 + (pesi % 26));
         }
     }
 }
