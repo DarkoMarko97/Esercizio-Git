@@ -1,29 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using CodiceFiscale;
 using System.Globalization;
 using System.Text;
 
-Console.WriteLine("Ciao, sono un calcolatore di codici fiscali! Mi servono il nome, il cognome, il sesso, la data di nascita e il comune, inseriscili per favore!");
-Console.WriteLine("Inserisci il nome: ");
-string nome = Console.ReadLine()?.ToUpper();
-Console.WriteLine("Inserisci il cognome: ");
-string cognome = Console.ReadLine()?.ToUpper();
-Console.WriteLine("Inserisci il sesso: ");
-string sesso = Console.ReadLine()?.ToUpper();
-Console.WriteLine("Inserisci la data di nascita (il formato è dd/MM/yyyy): ");
-string dataNascita = Console.ReadLine();
-string format = "dd/MM/yyyy";
-CultureInfo region = new CultureInfo("it-IT");
-DateTime nascita = DateTime.ParseExact(dataNascita, format,region);
-Console.WriteLine("Inserisci il comune di nascita: ");
-string comune = Console.ReadLine();
-
+/*
 //Per calcolare un codice fiscale serve prendere le prime tre lettere dal cognome, le prime tre lettere dal nome, in caso di due nomi prendere la prima e quarta lettera del primo e la prima del secondo
 //Poi prendere le ultime due cifre dell'anno, prendere il mese e convertirlo nella lettera corrispondente e prendere la data, fare un check del sesso, se femmina aggiungere ai giorni 40
 //Inserire il codice catastale e l'ultimo carattere
-
-int giorno = nascita.Day;
-int mese = nascita.Month;
-int anno = nascita.Year % 100;
 
 if  (sesso == "FEMMINA" || sesso == "F" || sesso == "DONNA") 
 {
@@ -80,4 +63,13 @@ string codiceCatastale =;
 public string CF(string cognome, string nome, int anno, int giorno, string comune) 
 {
     return lettereCognome + lettereNome + anno.ToString()+ mese + giorno + comune;
-}
+}*/
+
+Utente utente = new Utente();
+
+utente.getNome = "Franco";
+utente.getCognome = "Califano";
+utente.getSesso = "Maschio";
+utente.getNascita = DateTime.Parse("25/02/1956");
+utente.getComune = "Roma";
+

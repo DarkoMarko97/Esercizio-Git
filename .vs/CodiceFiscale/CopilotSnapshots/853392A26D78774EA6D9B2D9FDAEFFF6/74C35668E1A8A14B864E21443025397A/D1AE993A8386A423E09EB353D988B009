@@ -1,0 +1,23 @@
+﻿// See https://aka.ms/new-console-template for more information
+using System.Globalization;
+
+Console.WriteLine("Ciao, sono un calcolatore di codici fiscali! Mi servono il nome, il cognome, il sesso, la data di nascita e il comune, inseriscili per favore!");
+Console.WriteLine("Inserisci il nome: ");
+string nome = Console.ReadLine();
+Console.WriteLine("Inserisci il cognome: ");
+string cognome = Console.ReadLine();
+Console.WriteLine("Inserisci il sesso: ");
+string sesso = Console.ReadLine();
+Console.WriteLine("Inserisci la data di nascita: ");
+string dataNascita = Console.ReadLine();
+string format = "dd/MM/yyyy";
+CultureInfo region = new CultureInfo("it-IT");
+DateTime nascita = DateTime.ParseExact(dataNascita, format,region);
+Console.WriteLine("Inserisci il comune di nascita: ");
+string comune = Console.ReadLine();
+
+//Per calcolare un codice fiscale serve prendere le prime tre lettere dal cognome, le prime tre lettere dal nome, in caso di due nomi prendere la prima e quarta lettera del primo e la prima del secondo
+//Poi prendere le ultime due cifre dell'anno, prendere il mese e convertirlo nella lettera corrispondente e prendere la data, fare un check del sesso, se femmina aggiungere ai giorni 40
+//Inserire il codice catastale e l'ultimo carattere
+
+string lettere = 
