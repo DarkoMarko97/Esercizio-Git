@@ -12,11 +12,11 @@ string codiceCatastale =;*/
 
 Utente utente = new Utente();
 
-utente.getNome = "Franco";
-utente.getCognome = "Califano";
+utente.getNome = "Giovanni";
+utente.getCognome = "Rana";
 utente.getSesso = true;
 utente.getNascita = DateTime.Parse("25/02/1956");
-utente.getComune = "Roma";
+utente.getComune = "Napoli";
 
 
 Console.WriteLine($"Il codice fiscale di {utente.getNome} {utente.getCognome} è {utente.CodiceFiscale}");
